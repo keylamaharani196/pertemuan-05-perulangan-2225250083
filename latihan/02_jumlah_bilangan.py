@@ -1,0 +1,14 @@
+
+# Latihan 2: Jumlah 1 sampai n
+# Input: bilangan bulat positif n.
+# Proses: menjumlahkan angka dari 1 sampai n.
+# Kondisi berhenti: perulangan selesai saat i mencapai n.
+# Output: jumlah seluruh bilangan.
+
+n = int(input("n: "))
+total = 0
+
+for i in range(1, n + 1):
+    total += i
+
+print(f"Jumlah = {total}")
